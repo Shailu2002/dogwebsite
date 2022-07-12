@@ -1,0 +1,182 @@
+#title{
+
+  text-align:left;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+}
+/*Headings*/
+.big-heading{
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size:3rem;
+  line-height:1.5;
+}
+/*sections*/
+.white-section{
+background-color: white;
+}
+.coloured-section{
+  background-color:#ff4c68;
+  color:white;
+}
+
+p{
+  color:grey;
+  line-height:1;
+  font-size:1.1rem;
+}
+
+body{
+  text-align:center;
+}
+/* styling of container*/
+.container-fluid
+{
+  padding:3% 15% 7%;
+}
+/*navbar styling*/
+.navbar-brand
+{
+  font-family:'ubuntu';
+  font-weight:bold;
+  font-size:2rem;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-items
+{
+  padding:0 18px;
+}
+.nav-link
+{
+  font-family:'Montserrat';
+  font-weight:200;
+  font-size:1.3rem;
+}
+/*download button*/
+.download-btn{
+ margin:3% 5% 3% 0;
+}
+/*title image
+ -- to rotate an image aur anything use
+            transform:rotate()*/
+.title-img
+{
+  width:60%;
+  transform:rotate(25deg);
+}
+
+/* features section*/
+#features
+{
+  padding:7% 5%;
+}
+.feature-title{
+  font-size:1.4rem;
+}
+.feature-box{
+  padding:2.5rem;
+}
+.icon
+{
+  color:#ff4c68;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:pink;
+}
+/*testimonial section*/
+
+
+#testimonials{
+  padding:7% 15%;
+
+}
+.testimonial-text
+{
+  font-size:2.7rem;
+  line-height:1.5;
+}
+.testimonial-img{
+  width:20%;
+  border-radius:100%;
+  margin:20px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+/*press section*/
+#press{
+ padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/* pricing*/
+.pb
+{
+  padding:2% 30%;
+}
+.pricing-text
+{
+  font-size:2.7rem;
+  line-height: 1.5;
+}
+
+#pricing
+{
+  padding:100px;
+}
+.pricing-title{
+  font-size:1.4rem;
+}
+
+.card
+{
+  height:23rem;
+}
+.pricing-column
+{
+  padding:2% 3%;
+}
+@media (max-width:1028px)
+{
+
+
+  #title{
+    text-align:center;
+  }
+    h2
+  {
+      font-family:'Montserrat';
+      font-weight:600;
+      font-size:1.7rem;
+      line-height:1.5 ;
+  }
+  .title-img
+  {
+    position:static;
+    transform:rotate(0);
+  }
+}
+#cta{
+  padding:5% 23%;
+}
+/*footer section*/
+#footer{
+  padding:5% 40%;
+}
+.footerp{
+  margin:3% auto;
+}
+.footer-icon{
+  margin:auto 3%;
+}
